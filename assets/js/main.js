@@ -15,8 +15,6 @@ if ("serviceWorker" in navigator) {
 
 const footerTime = document.querySelector("#footer-time");
 const map = document.querySelector("#frame");
-const sosBtn = document.querySelector("#sosBtn");
-
 footerTime.textContent = new Date().getFullYear();
 
 if (map) {
@@ -50,7 +48,5 @@ if (map) {
 }
 
 if (sosBtn) {
-	sosBtn.addEventListener("click", () => {
-		navigator.vibrate([30, 30, 30, 100, 100, 100, 30, 30, 30]);
-	});
+	
 }
