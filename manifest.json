@@ -1,0 +1,21 @@
+{
+	"name": "Gesos - zobacz gdzie jesteś!",
+	"short_name": "Gesos",
+	"start_url": ".",
+	"background_color": "#FFFFFF",
+	"theme_color": "#26E144",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "assets/images/logo192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "assets/images/logo512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}
