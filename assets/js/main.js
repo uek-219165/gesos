@@ -51,14 +51,6 @@ if (map) {
 
 if (sosBtn) {
 	sosBtn.addEventListener("click", () => {
-		navigator.vibrate(100);
-		navigator.vibrate(100);
-		navigator.vibrate(100);
-		navigator.vibrate(500);
-		navigator.vibrate(500);
-		navigator.vibrate(500);
-		navigator.vibrate(100);
-		navigator.vibrate(100);
-		navigator.vibrate(100);
+		navigator.vibrate([30, 30, 30, 100, 100, 100, 30, 30, 30]);
 	});
 }
